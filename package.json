@@ -1,0 +1,30 @@
+{
+  "name": "project-clipboard",
+  "displayName": "Project Clipboard",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "codebase-context-container",
+          "title": "AI Context",
+          "icon": "$(file-code)"
+        }
+      ]
+    },
+    "views": {
+      "codebase-context-container": [
+        {
+          "type": "webview",
+          "id": "codebaseContextView",
+          "name": "Select Files for AI"
+        }
+      ]
+    }
+  }
+}
