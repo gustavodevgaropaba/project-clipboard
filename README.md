@@ -36,7 +36,6 @@ Como esta extensão foi desenvolvida para uso pessoal e customizado, ela pode se
 ## Pré-requisitos
 Certifique-se de ter o Node.js instalado em sua máquina e a ferramenta vsce (Visual Studio Code Extensions) instalada globalmente para realizar o empacotamento:
 
-## Bash
 ```npm install -g @vscode/vsce```
 
 ## Passos para Instalação
@@ -44,8 +43,8 @@ Certifique-se de ter o Node.js instalado em sua máquina e a ferramenta vsce (Vi
 Empacotar a extensão:
 Abra o terminal na pasta raiz do projeto da extensão e execute o comando de empacotamento:
 
-Bash
 ```vsce package```
+
 Isso gerará um arquivo com a extensão .vsix (por exemplo, codebase-clipboard-1.0.0.vsix).
 
 ## Instalar no VS Code:
